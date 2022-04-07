@@ -12,12 +12,10 @@ public class Student
 		this.status = status;
 	}
 
-	/** Set new status */
 	public void setStatus(int status) {
 		this.status = status; 
 	}
 
-	/** Return status */
 	public String getStatus() {
 		switch (status) {
 			case 1 : return "freshman"; 
